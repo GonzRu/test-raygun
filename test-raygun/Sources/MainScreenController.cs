@@ -75,7 +75,7 @@ namespace testraygun
 			}
 			catch (Exception ex)
 			{
-				_raygunClient.Send(ex);
+				_raygunClient.Send(ex, null, "1.1");
 			}
 		}
 
@@ -87,7 +87,7 @@ namespace testraygun
 			}
 			catch (Exception ex)
 			{
-				_raygunClient.Send(ex);
+				_raygunClient.Send(ex, null, "1.0");
 			}
 		}
 
@@ -100,7 +100,7 @@ namespace testraygun
 			}
 			catch (Exception ex)
 			{
-				_raygunClient.Send(ex);
+				_raygunClient.Send(ex, null, "1.5");
 			}
 		}
 		#endregion
