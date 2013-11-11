@@ -16,7 +16,7 @@ namespace testraygun
 
 		private static readonly string Button1Text = "throw Exception";
 		private static readonly string Button2Text = "throw ArgumentNullException";
-		private static readonly string Button3Text = "throw Exception";
+		private static readonly string Button3Text = "throw OutOfMemoryException";
 
 		private UIButton _btn1;
 		private UIButton _btn2;
@@ -95,7 +95,7 @@ namespace testraygun
 		{
 			try
 			{
-				throw new Exception("Exception from Button1");
+				throw new OutOfMemoryException("Exception from Button3");
 
 			}
 			catch (Exception ex)
