@@ -10,9 +10,9 @@ namespace testraygun
 		private static readonly RaygunClient _raygunClient = new RaygunClient("");
 
 		#region Buttons
-		private static readonly RectangleF Button1Frame = new RectangleF(20, 20, 200, 20);
-		private static readonly RectangleF Button2Frame = new RectangleF(20, 60, 200, 20);
-		private static readonly RectangleF Button3Frame = new RectangleF(20, 100, 200, 20);
+		private static readonly RectangleF Button1Frame = new RectangleF(20, 20, 280, 20);
+		private static readonly RectangleF Button2Frame = new RectangleF(20, 60, 280, 20);
+		private static readonly RectangleF Button3Frame = new RectangleF(20, 100, 280, 20);
 
 		private static readonly string Button1Text = "throw Exception";
 		private static readonly string Button2Text = "throw ArgumentNullException";
