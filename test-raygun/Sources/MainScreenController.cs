@@ -1,11 +1,14 @@
 using System;
 using MonoTouch.UIKit;
 using System.Drawing;
+using Mindscape.Raygun4Net;
 
 namespace testraygun
 {
 	public class MainScreenController : UIViewController
 	{
+		private static readonly RaygunClient _raygunClient = new RaygunClient("");
+
 		#region Buttons
 		private static readonly RectangleF Button1Frame = new RectangleF(20, 20, 200, 20);
 		private static readonly RectangleF Button2Frame = new RectangleF(20, 60, 200, 20);
@@ -72,6 +75,7 @@ namespace testraygun
 			}
 			catch (Exception ex)
 			{
+				_raygunClient.Send(ex);
 			}
 		}
 
@@ -83,6 +87,7 @@ namespace testraygun
 			}
 			catch (Exception ex)
 			{
+				_raygunClient.Send(ex);
 			}
 		}
 
@@ -95,6 +100,7 @@ namespace testraygun
 			}
 			catch (Exception ex)
 			{
+				_raygunClient.Send(ex);
 			}
 		}
 		#endregion
