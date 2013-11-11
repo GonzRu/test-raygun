@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test-raygun", "test-raygun\test-raygun.csproj", "{146522D5-E24C-4056-968E-897F941F952D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Release|iPhone = Release|iPhone
+		Ad-Hoc|iPhone = Ad-Hoc|iPhone
+		AppStore|iPhone = AppStore|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{146522D5-E24C-4056-968E-897F941F952D}.Ad-Hoc|iPhone.ActiveCfg = Ad-Hoc|iPhone
+		{146522D5-E24C-4056-968E-897F941F952D}.Ad-Hoc|iPhone.Build.0 = Ad-Hoc|iPhone
+		{146522D5-E24C-4056-968E-897F941F952D}.AppStore|iPhone.ActiveCfg = AppStore|iPhone
+		{146522D5-E24C-4056-968E-897F941F952D}.AppStore|iPhone.Build.0 = AppStore|iPhone
+		{146522D5-E24C-4056-968E-897F941F952D}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{146522D5-E24C-4056-968E-897F941F952D}.Debug|iPhone.Build.0 = Debug|iPhone
+		{146522D5-E24C-4056-968E-897F941F952D}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{146522D5-E24C-4056-968E-897F941F952D}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{146522D5-E24C-4056-968E-897F941F952D}.Release|iPhone.ActiveCfg = Release|iPhone
+		{146522D5-E24C-4056-968E-897F941F952D}.Release|iPhone.Build.0 = Release|iPhone
+		{146522D5-E24C-4056-968E-897F941F952D}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{146522D5-E24C-4056-968E-897F941F952D}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = test-raygun\test-raygun.csproj
+	EndGlobalSection
+EndGlobal
