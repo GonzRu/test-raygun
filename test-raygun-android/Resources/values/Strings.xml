@@ -2,4 +2,8 @@
 <resources>
 	<string name="hello">Hello World, Click Me!</string>
 	<string name="app_name">test-raygun-android</string>
+	<string name="Button1Text">throw Extension</string>
+	<string name="Button2Text">throw ArgumentNullExtension</string>
+	<string name="Button3Text">throw Extension</string>
+	<string name="Button4Text">throw Extension from thread</string>
 </resources>
