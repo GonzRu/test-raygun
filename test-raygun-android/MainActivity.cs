@@ -12,10 +12,12 @@ namespace testraygunandroid
 	[Activity (Label = "test-raygun-android", MainLauncher = true)]
 	public class MainActivity : Activity
 	{
+		#region Buttons
 		private Button _btn1;
 		private Button _btn2;
 		private Button _btn3;
 		private Button _btn4;
+		#endregion
 
 		protected override void OnCreate (Bundle bundle)
 		{
@@ -52,7 +54,7 @@ namespace testraygunandroid
 		{
 			try
 			{
-				throw new Exception("Exception from Button1");
+				throw new Exception("Exception from Button1 Android");
 			}
 			catch (Exception ex)
 			{
@@ -64,7 +66,7 @@ namespace testraygunandroid
 		{
 			try
 			{
-				throw new ArgumentNullException("ArgumentNullException from Button2");
+				throw new ArgumentNullException("ArgumentNullException from Button2 Android");
 			}
 			catch (Exception ex)
 			{
@@ -76,7 +78,7 @@ namespace testraygunandroid
 		{
 			try
 			{
-				throw new OutOfMemoryException("OutOfMemoryException from Button3");
+				throw new OutOfMemoryException("OutOfMemoryException from Button3 Android");
 			}
 			catch (Exception ex)
 			{
@@ -89,7 +91,7 @@ namespace testraygunandroid
 			Task.Run( () => {
 				try
 				{
-					throw new Exception("Exception from Button4 from new thread");
+					throw new Exception("Exception from Button4 from new thread Android");
 				}
 				catch (Exception ex)
 				{
