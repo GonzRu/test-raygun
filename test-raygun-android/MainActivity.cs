@@ -6,12 +6,15 @@ using Android.Views;
 using Android.Widget;
 using Android.OS;
 using System.Threading.Tasks;
+using Mindscape.Raygun4Net;
 
 namespace testraygunandroid
 {
 	[Activity (Label = "test-raygun-android", MainLauncher = true)]
 	public class MainActivity : Activity
 	{
+		private RaygunClient _raygunClient = new RaygunClient("");
+
 		#region Buttons
 		private Button _btn1;
 		private Button _btn2;
@@ -59,6 +62,7 @@ namespace testraygunandroid
 			catch (Exception ex)
 			{
 				Console.WriteLine("Catch Exception:" + ex.Message);
+				_raygunClient.Send(ex, null, "1.0");
 			}
 		}
 
@@ -71,6 +75,7 @@ namespace testraygunandroid
 			catch (Exception ex)
 			{
 				Console.WriteLine("Catch Exception:" + ex.Message);
+				_raygunClient.Send(ex, null, "1.0");
 			}
 		}
 
@@ -83,6 +88,7 @@ namespace testraygunandroid
 			catch (Exception ex)
 			{
 				Console.WriteLine("Catch Exception:" + ex.Message);
+				_raygunClient.Send(ex, null, "1.0");
 			}
 		}
 
@@ -96,6 +102,7 @@ namespace testraygunandroid
 				catch (Exception ex)
 				{
 					Console.WriteLine("Catch Exception:" + ex.Message);
+					_raygunClient.Send(ex, null, "1.0");
 				}
 			});
 		}
