@@ -26,6 +26,7 @@ namespace testraygunandroid
 		
 		public static void UpdateIdValues()
 		{
+			global::Mindscape.Raygun4Net.Xamarin.Android.Resource.String.library_name = global::testraygunandroid.Resource.String.library_name;
 		}
 		
 		public partial class Attribute
@@ -92,23 +93,26 @@ namespace testraygunandroid
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f040002
-			public const int Button1Text = 2130968578;
-			
 			// aapt resource value: 0x7f040003
-			public const int Button2Text = 2130968579;
+			public const int Button1Text = 2130968579;
 			
 			// aapt resource value: 0x7f040004
-			public const int Button3Text = 2130968580;
+			public const int Button2Text = 2130968580;
 			
 			// aapt resource value: 0x7f040005
-			public const int Button4Text = 2130968581;
+			public const int Button3Text = 2130968581;
+			
+			// aapt resource value: 0x7f040006
+			public const int Button4Text = 2130968582;
+			
+			// aapt resource value: 0x7f040002
+			public const int app_name = 2130968578;
 			
 			// aapt resource value: 0x7f040001
-			public const int app_name = 2130968577;
+			public const int hello = 2130968577;
 			
 			// aapt resource value: 0x7f040000
-			public const int hello = 2130968576;
+			public const int library_name = 2130968576;
 			
 			static String()
 			{

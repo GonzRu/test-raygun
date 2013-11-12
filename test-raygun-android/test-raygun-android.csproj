@@ -44,6 +44,9 @@
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
     <Reference Include="Mono.Android" />
+	<Reference Include="Mindscape.Raygun4Net.Xamarin.Android">
+      <HintPath>Mindscape.Raygun4Net.Xamarin.Android.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MainActivity.cs" />
